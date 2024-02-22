@@ -194,6 +194,12 @@ header,
 #hot-deal .hot-deal-text h2 .important {
     color: #E55473;
 }
+/* for instagram section design */
+#instgram .section-content{
+    justify-content: space-around;
+}
+
+
 
 /* for newslatter */
 #newslatter {
