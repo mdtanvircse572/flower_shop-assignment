@@ -38,7 +38,8 @@ button:hover {
 }
 
 /* for header design */
-header ,#hot-deal{
+header,
+#hot-deal {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -134,10 +135,11 @@ header ,#hot-deal{
 }
 
 /* business-policy section */
-#service{
+#service {
     padding: 90px 0;
 }
-#service .container{
+
+#service .container {
     background: rgba(114, 47, 47, 0.245);
     display: flex;
     justify-content: space-around;
@@ -145,9 +147,9 @@ header ,#hot-deal{
     padding-top: 60px;
 }
 
-#service .container.policy .policy-img img{
-margin: 65px 80px;
-margin-bottom: 0;
+#service .container.policy .policy-img img {
+    margin: 65px 80px;
+    margin-bottom: 0;
 }
 
 #service .container .policy p {
@@ -158,31 +160,91 @@ margin-bottom: 0;
     line-height: 35px;
     /* 145.833% */
 }
+
 /* hot-deal design */
-.hot-deal-main{
+.hot-deal-main {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 100px 0;
 }
-#hot-deal .hot-deal-text *{
+
+#hot-deal .hot-deal-text * {
     margin-bottom: 24px;
 }
-#hot-deal .hot-deal-text{
+
+#hot-deal .hot-deal-text {
     width: 75%;
     max-width: 550px;
     text-align: center;
 }
-#hot-deal .hot-deal-text h2{
+
+#hot-deal .hot-deal-text h2 {
     color: #272727;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-#hot-deal .hot-deal-img{
+
+#hot-deal .hot-deal-img {
     max-width: 318px;
 }
-#hot-deal .hot-deal-text h2 .important{
+
+#hot-deal .hot-deal-text h2 .important {
     color: #E55473;
+}
+
+/* for newslatter */
+#newslatter {
+    margin: 128px 0;
+}
+
+.newslatter-main {
+    background-image: url('../images/newslatterbg.png');
+    padding: 122px 0;
+}
+
+#newslatter form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+#newslatter form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #111010;
+    justify-content: space-around;
+}
+
+footer .footer-main h1 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer .footer-main h1 .important {
+    color: #E55473;
+}
+
+footer .footer-main p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
